@@ -27,6 +27,8 @@ def logger(path):
         return new_function
 
     return __logger
+
+
 @logger('flat_generator.log')
 def flat_generator(list_of_lists):
     for el in list_of_lists:
