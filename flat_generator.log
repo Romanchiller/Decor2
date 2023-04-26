@@ -1,0 +1,1 @@
+flat_generator, ([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],),{}, 2023-04-26, 18:42:20.178445, <generator object flat_generator at 0x000001FB76F1A500> 

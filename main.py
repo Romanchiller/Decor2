@@ -27,6 +27,17 @@ def logger(path):
         return new_function
 
     return __logger
+@logger('flat_generator.log')
+def flat_generator(list_of_lists):
+    for el in list_of_lists:
+        for i in el:
+            yield i
+
+flat_generator([
+        ['a', 'b', 'c'],
+        ['d', 'e', 'f', 'h', False],
+        [1, 2, None]
+    ])
 
 
 def test_2():
